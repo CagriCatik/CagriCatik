@@ -37,5 +37,3 @@ If you find any issues or have suggestions for improvement in any of my projects
 ## 🎉 Acknowledgments
 I'd like to thank all the contributors, supporters, and open-source community for their valuable contributions and inspiration.
 
-## 📝 License
-This repository is licensed under the [License Name] License - see the [LICENSE](LICENSE) file for details.

@@ -18,7 +18,7 @@ Here are some of the projects I've been working on:
 
 ## Programming Languages - Tools - Skills 💻
 
-- **Programming Languages:** [C](https://github.com/KefitzatHaderech/C) | [C++](https://github.com/KefitzatHaderech/CPP) | [Python](https://github.com/KefitzatHaderech/Python) | [MATLAB/Simulink]() | [Julia]() | [Rust]() | [Bash]() | [PowerShell]()
+- **Programming Languages:** [C](https://github.com/KefitzatHaderech/C) | [C++](https://github.com/KefitzatHaderech/CPP) | [Python](https://github.com/KefitzatHaderech/Python) | [MATLAB/Simulink](https://github.com/KefitzatHaderech/MATLAB-Simulink-Stateflow) | [Julia]() | [Rust]() | [Bash]() | [PowerShell]()
 - **Frameworks:** [ROS](https://github.com/KefitzatHaderech/ROS) | [ROS2](https://github.com/KefitzatHaderech/ROS2)
 - **Communication Protocols:** [CAN](https://github.com/KefitzatHaderech/CAN) | [LIN](https://github.com/KefitzatHaderech/LIN) | [FlexRay](https://github.com/KefitzatHaderech/FLEXRAY) | [Ethernet](https://github.com/KefitzatHaderech/ETHERNET) | [XCP](https://github.com/KefitzatHaderech/XCP) | [SecOC](https://github.com/KefitzatHaderech/SecOC)
 - **Standards:** [Functional Safety](https://github.com/KefitzatHaderech/FuSi) | [IATF](https://github.com/KefitzatHaderech/IATF) | [FMEA](https://github.com/KefitzatHaderech/FMEA)

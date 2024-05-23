@@ -6,8 +6,6 @@
 
 ## About Me 💭
 
-- I'm passionate about automotive engineering, particularly in the realms of communication protocols, vehicle architecture.
-- With a background in CAN, LIN, FlexRay, and more, I thrive on tackling complex challenges within the automotive industry.
 - **My repositories, commits or descriptions represent my alter ego and not my real personality.**
 
 ## Projects 🚀

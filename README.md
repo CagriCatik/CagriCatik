@@ -18,7 +18,14 @@ Explore repositories featuring various languages and their applications:
 
 ---
 
-## 2. Embedded Systems & Communication Protocols 🚗
+## 2. MATLAB-Simulink Projects 🔧
+
+- [Software-in-the-Loop (SiL) with Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
+- [Single Track Model with Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
+
+---
+
+## 3. Embedded Systems & Communication Protocols 🚗
 
 Projects covering automotive communication protocols and embedded systems:
 - [CAN](https://github.com/CagriCatik/CAN)
@@ -30,7 +37,7 @@ Projects covering automotive communication protocols and embedded systems:
 
 ---
 
-## 3. E/E Architecture 🏗️ Standards & Compliance 📐
+## 4. E/E Architecture 🏗️ Standards & Compliance 📐
 
 Explore projects on electronic and electrical architecture in vehicles. Repositories dedicated to safety standards and compliance:
 - [Functional Safety](https://github.com/CagriCatik/FuSi)
@@ -41,7 +48,7 @@ Explore projects on electronic and electrical architecture in vehicles. Reposito
 
 ---
 
-## 4. Vehicle Diagnostics 🔍
+## 5. Vehicle Diagnostics 🔍
 
 Repositories focused on diagnostics protocols and tools:
 - [UDS](https://github.com/CagriCatik/UDS)
@@ -59,19 +66,7 @@ Repositories focused on diagnostics protocols and tools:
 
 ---
 
-## 7. PCB Handbook and Projects 📘
-
-- [PCB Handbook](https://github.com/CagriCatik/PCB-Design-with-KiCad)
-
----
-
-## 8. MATLAB-Simulink Projects 🔧
-
-- [Software-in-the-Loop (SiL) with Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
-- [Single Track Model with Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
-
-
-## Simple ROS2 Projects
+## 7. Simple ROS2 Projects
 
 - [ROS 2 CSI Camera Publisher and OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
 - [Custom ROS 2 Messages Using Python Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
@@ -80,3 +75,9 @@ Repositories focused on diagnostics protocols and tools:
 - [ROS 2 RealSense Camera Publisher and Depth/ Stereo Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
 - [SLAMTEC LIDAR ROS2 Package for RPLIDAR C1](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
 - [ROS2 YOLO11 Object Detection Package](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
+
+---
+
+## 8. PCB Handbook and Projects 📘
+
+- [PCB Handbook](https://github.com/CagriCatik/PCB-Design-with-KiCad)

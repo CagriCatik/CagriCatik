@@ -2,32 +2,17 @@
 
 Explore a wide array of projects showcasing my skills in programming, embedded systems, industry standards, vehicle diagnostics, E/E architecture, deep learning, and PCB design. Each repository highlights my work across various domains and is organized by skill and project category.
 
----
+## 1. Programming Languages & Frameworks & Libraries 💻
 
-## Table of Contents
-1. [Core Programming Skills](#1-core-programming-skills-💻)
-2. [Embedded Systems & Communication Protocols](#2-embedded-systems--communication-protocols-🚗)
-3. [Industry Standards & Compliance](#3-industry-standards--compliance-📐)
-4. [Vehicle Diagnostics](#4-vehicle-diagnostics-🔍)
-5. [Vehicle E/E Architecture](#5-vehicle-ee-architecture-🏗️)
-6. [Deep Learning Projects](#6-deep-learning-projects-🧠)
-7. [PCB Handbook and Projects](#7-pcb-handbook-and-projects)
-8. [MATLAB-Simulink Projects](#8-matlab-simulink)
-
----
-
-## 1. Core Programming Skills 💻
-
-### Programming Languages
 Explore repositories featuring various languages and their applications:
 - [C](https://github.com/CagriCatik/C)
 - [C++](https://github.com/CagriCatik/CPP)
 - [Python](https://github.com/CagriCatik/Python)
 - [Python for Data Analysis](https://github.com/CagriCatik/Python-for-Data-Analysis)
 - [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
-- Additional languages: Julia, Rust, Bash, PowerShell
-
-### Frameworks & Libraries
+- [Rust](https://github.com/CagriCatik/RUST)
+- [Bash](https://github.com/CagriCatik/my-bash-files-repository)
+- [PowerShell](https://github.com/CagriCatik/PowerShell)
 - [ROS](https://github.com/CagriCatik/ROS)
 - [ROS2](https://github.com/CagriCatik/ROS2)
 
@@ -45,12 +30,14 @@ Projects covering automotive communication protocols and embedded systems:
 
 ---
 
-## 3. Industry Standards & Compliance 📐
+## 3. E/E Architecture 🏗️ Standards & Compliance 📐
 
-Repositories dedicated to safety standards and compliance:
-- [Functional Safety (FuSi)](https://github.com/CagriCatik/FuSi)
+Explore projects on electronic and electrical architecture in vehicles. Repositories dedicated to safety standards and compliance:
+- [Functional Safety](https://github.com/CagriCatik/FuSi)
 - [IATF](https://github.com/CagriCatik/IATF)
 - [FMEA](https://github.com/CagriCatik/FMEA)
+- [AUTOSAR](https://github.com/CagriCatik/AUTOSAR)
+- [Service-Oriented Architecture](https://github.com/CagriCatik/SOA)
 
 ---
 
@@ -60,14 +47,6 @@ Repositories focused on diagnostics protocols and tools:
 - [UDS](https://github.com/CagriCatik/UDS)
 - [SOVD](https://github.com/CagriCatik/SOVD)
 - [DoIP](https://github.com/CagriCatik/DoIP)
-
----
-
-## 5. Vehicle E/E Architecture 🏗️
-
-Explore projects on electronic and electrical architecture in vehicles:
-- [AUTOSAR](https://github.com/CagriCatik/AUTOSAR)
-- [Service-Oriented Architecture (SOA)](https://github.com/CagriCatik/SOA)
 
 ---
 
@@ -89,3 +68,4 @@ Explore projects on electronic and electrical architecture in vehicles:
 ## 8. MATLAB-Simulink Projects 🔧
 
 - [Software-in-the-Loop (SiL) with Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
+- [Single Track Model with Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)

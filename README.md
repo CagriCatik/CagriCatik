@@ -55,9 +55,10 @@ Repositories focused on diagnostics protocols and tools:
 - [Mono Camera Distance Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
 - [EchoScript](https://github.com/CagriCatik/EchoScript)
 - [Intrusion-Detection](https://github.com/CagriCatik/YOLOv11-Projects/Intrusion-Detection)
-- [Self-Driving Cars with OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
 
-## 7. Simple ROS2 Projects
+- [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects/tree/main)
+
+## 7. Simple ROS2 Projects 🤖
 
 - [ROS 2 CSI Camera Publisher and OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
 - [Custom ROS 2 Messages Using Python Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
@@ -67,6 +68,10 @@ Repositories focused on diagnostics protocols and tools:
 - [SLAMTEC LIDAR ROS2 Package for RPLIDAR C1](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
 - [ROS2 YOLO11 Object Detection Package](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
 
-## 8. PCB Handbook and Projects 📘
+## 8. SDC-Projects 🏎️
+
+- [Self-Driving Cars with OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
+
+## 9. PCB Handbook and Projects 📘
 
 - [PCB Handbook](https://github.com/CagriCatik/PCB-Design-with-KiCad)

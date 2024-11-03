@@ -55,7 +55,6 @@ Repositories focused on diagnostics protocols and tools:
 - [Mono Camera Distance Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
 - [EchoScript](https://github.com/CagriCatik/EchoScript)
 - [Intrusion-Detection](https://github.com/CagriCatik/YOLOv11-Projects/Intrusion-Detection)
-
 - [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects/tree/main)
 
 ## 7. Simple ROS2 Projects 🤖

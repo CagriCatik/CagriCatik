@@ -22,6 +22,7 @@ Explore repositories featuring various languages and their applications:
 - [Single Track Model with Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
 - [Co-Simulation with Unity](https://github.com/CagriCatik/DriveSim)
 - [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
+- [Climate Control](https://github.com/CagriCatik/Climate-Control)
 
 ## 3. Embedded Systems & Communication Protocols 🚗
 

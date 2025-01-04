@@ -30,15 +30,21 @@ Explore repositories featuring various languages and their applications:
 - [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
 - [Climate Control](https://github.com/CagriCatik/Climate-Control)
 
-## Embedded Systems & Communication Protocols 🚗
+## Vehicle Network Standards 🚗
 
-Projects covering automotive communication protocols and embedded systems:
-- [CAN](https://github.com/CagriCatik/CAN)
-- [LIN](https://github.com/CagriCatik/LIN)
-- [FlexRay](https://github.com/CagriCatik/FLEXRAY)
-- [Ethernet](https://github.com/CagriCatik/ETHERNET)
-- [XCP](https://github.com/CagriCatik/XCP)
-- [SecOC](https://github.com/CagriCatik/SecOC)
+Projects covering automotive communication protocols, standards and embedded systems:
+- [Vehicle Network Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
+  - CAN
+  - LIN
+  - FlexRay
+  - Ethernet
+  - XCP
+  - SecOC
+  - AUTOSAR
+  - SOA
+  - UDS
+  - SOVD
+  - DoIP
 
 ## E/E Architecture 🏗️ Standards & Compliance 📐
 
@@ -46,15 +52,6 @@ Explore projects on electronic and electrical architecture in vehicles. Reposito
 - [Functional Safety](https://github.com/CagriCatik/FuSi)
 - [IATF](https://github.com/CagriCatik/IATF)
 - [FMEA](https://github.com/CagriCatik/FMEA)
-- [AUTOSAR](https://github.com/CagriCatik/AUTOSAR)
-- [Service-Oriented Architecture](https://github.com/CagriCatik/SOA)
-
-## Vehicle Diagnostics 🔍
-
-Repositories focused on diagnostics protocols and tools:
-- [UDS](https://github.com/CagriCatik/UDS)
-- [SOVD](https://github.com/CagriCatik/SOVD)
-- [DoIP](https://github.com/CagriCatik/DoIP)
 
 ## Deep Learning Projects 🧠
 

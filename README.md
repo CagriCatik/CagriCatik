@@ -8,7 +8,6 @@ Explore repositories featuring various languages and their applications:
 - [C](https://github.com/CagriCatik/C)
 - [C++](https://github.com/CagriCatik/CPP)
 - [Python](https://github.com/CagriCatik/Python)
-- [Python for Data Analysis](https://github.com/CagriCatik/Python-for-Data-Analysis)
 - [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
 - [Rust](https://github.com/CagriCatik/RUST)
 - [Bash](https://github.com/CagriCatik/my-bash-files-repository)

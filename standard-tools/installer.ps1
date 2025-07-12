@@ -1,61 +1,47 @@
-# Define paths and download URLs
-$downloadsFolder = "$env:USERPROFILE\Downloads\ToolInstaller"
-$tools = @(
-    @{
-        Name = "Visual Studio Code"
-        Url = "https://code.visualstudio.com/sha/download?build=stable&os=win32-x64-user"
-        Installer = "$downloadsFolder\VSCodeSetup.exe"
-        SilentArgs = "/silent /mergetasks=!runcode"
-    },
-    @{
-        Name = "KiCad"
-        Url = "https://downloads.kicad.org/kicad/windows/kicad-6.0.11-x86_64.exe"
-        Installer = "$downloadsFolder\KiCadSetup.exe"
-        SilentArgs = "/S"
-    },
-    @{
-        Name = "FreeCAD"
-        Url = "https://github.com/FreeCAD/FreeCAD/releases/download/0.20.2/FreeCAD-0.20.2-WIN-x64-installer.exe"
-        Installer = "$downloadsFolder\FreeCADSetup.exe"
-        SilentArgs = "/S"
-    }
+# installer.ps1
+
+# Check for admin rights
+if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole(
+    [Security.Principal.WindowsBuiltInRole]::Administrator)) {
+    Write-Warning "Please run this script as Administrator!"
+    exit 1
+}
+
+# App list
+$apps = @(
+    @{ Name = "Visual Studio Code"; Id = "Microsoft.VisualStudioCode" },
+    @{ Name = "Microsoft Teams"; Id = "Microsoft.Teams" },
+    @{ Name = "Docker Desktop"; Id = "Docker.DockerDesktop" },
+    @{ Name = "KiCad"; Id = "KiCad.KiCad" },
+    @{ Name = "FreeCAD"; Id = "FreeCAD.FreeCAD" },
+    @{ Name = "Bambu Studio"; Id = "Bambulab.BambuStudio" },
+    @{ Name = "WhatsApp"; Id = "WhatsApp.WhatsApp" },
+    @{ Name = "Git"; Id = "Git.Git" },
+    @{ Name = "GitHub Desktop"; Id = "GitHub.GitHubDesktop" }
 )
 
-# Create downloads folder if not exists
-if (-not (Test-Path $downloadsFolder)) {
-    New-Item -Path $downloadsFolder -ItemType Directory | Out-Null
-}
+# Logging
+$logFile = "$PSScriptRoot\install-log.txt"
+"Installation started at $(Get-Date)" | Out-File $logFile
 
-# Function to download and install a tool
-function Install-Tool {
-    param (
-        [string]$name,
-        [string]$url,
-        [string]$installerPath,
-        [string]$silentArgs
-    )
-
-    Write-Host "Downloading $name..." -ForegroundColor Cyan
+# Install loop
+foreach ($app in $apps) {
+    Write-Host "`nInstalling $($app.Name)..."
     try {
-        Invoke-WebRequest -Uri $url -OutFile $installerPath
-        Write-Host "Downloaded $name successfully." -ForegroundColor Green
+        winget install --id $($app.Id) -e --accept-package-agreements --accept-source-agreements -h | Out-Null
+        if ($LASTEXITCODE -eq 0) {
+            Write-Host "Installed: $($app.Name)"
+            "[$(Get-Date)] Installed: $($app.Name)" | Out-File $logFile -Append
+        } else {
+            Write-Warning "Failed: $($app.Name), Exit code: $LASTEXITCODE"
+            "[$(Get-Date)] Failed: $($app.Name), Exit code: $LASTEXITCODE" | Out-File $logFile -Append
+        }
     } catch {
-        Write-Host "Failed to download $name. Check your internet connection or the URL." -ForegroundColor Red
-        return
-    }
-
-    Write-Host "Installing $name..." -ForegroundColor Cyan
-    try {
-        Start-Process -FilePath $installerPath -ArgumentList $silentArgs -Wait -NoNewWindow
-        Write-Host "$name installed successfully." -ForegroundColor Green
-    } catch {
-        Write-Host "Failed to install $name. Check the installer file or permissions." -ForegroundColor Red
+        Write-Error "Error installing $($app.Name): $_"
+        "[$(Get-Date)] Error: $($app.Name): $_" | Out-File $logFile -Append
     }
 }
 
-# Download and install each tool
-foreach ($tool in $tools) {
-    Install-Tool -name $tool.Name -url $tool.Url -installerPath $tool.Installer -silentArgs $tool.SilentArgs
-}
-
-Write-Host "All tools have been installed!" -ForegroundColor Yellow
+# Final output
+Write-Host "`nAll installations attempted. See log file:" -ForegroundColor Yellow
+Write-Host $logFile

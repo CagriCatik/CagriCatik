@@ -1,79 +1,100 @@
 # Repositories 📚
 
-Explore a wide array of projects showcasing my skills in programming, embedded systems, industry standards, vehicle diagnostics, E/E architecture, deep learning, and PCB design. Each repository highlights my work across various domains and is organized by skill and project category.
+This collection showcases projects across programming, robotics, automotive systems, electronics, and deep learning. Browse by category to explore each domain.
 
-## Programming Languages & Frameworks & Libraries 💻
+## Table of Contents
 
-Explore repositories featuring various languages and their applications:
-- [C](https://github.com/CagriCatik/C)
-- [C++](https://github.com/CagriCatik/CPP)
-- [Python](https://github.com/CagriCatik/Python)
-- [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
-- [Rust](https://github.com/CagriCatik/RUST)
-- [Bash](https://github.com/CagriCatik/my-bash-files-repository)
-- [PowerShell](https://github.com/CagriCatik/PowerShell)
-- [ROS](https://github.com/CagriCatik/ROS)
+1. [Programming Languages](#programming-languages)
+2. [Robotics & ROS2](#robotics--ros2)
+3. [MATLAB & Simulink](#matlab--simulink)
+4. [Automotive Networks & E/E Architecture](#automotive-networks--ee-architecture)
+5. [Deep Learning](#deep-learning)
+6. [Simple ROS2 Tutorials](#simple-ros2-tutorials)
+7. [Self-Driving Car Projects](#self-driving-car-projects)
+8. [PCB Design & Handbook](#pcb-design--handbook)
 
-## ROS2
+---
 
-- [ROS2 - Beginners](https://github.com/CagriCatik/ROS2-Beginners)
-- [ROS2 - Advanced Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
-- [ROS2 - TF|URDF|RViz|Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
-- [ROS2 - Nav2](https://github.com/CagriCatik/ROS2-Nav2)
+## Programming Languages 💻
 
-## MATLAB-Simulink Projects 🔧
+Projects demonstrating core language skills and popular libraries:
 
-- [Software-in-the-Loop (SiL) with Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
-- [Single Track Model with Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
-- [Co-Simulation with Unity](https://github.com/CagriCatik/DriveSim)
-- [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
-- [Climate Control](https://github.com/CagriCatik/Climate-Control)
+* [C](https://github.com/CagriCatik/C)
+* [C++](https://github.com/CagriCatik/CPP)
+* [Python](https://github.com/CagriCatik/Python)
+* [Rust](https://github.com/CagriCatik/RUST)
+* [Bash](https://github.com/CagriCatik/my-bash-files-repository)
+* [PowerShell](https://github.com/CagriCatik/PowerShell)
+* [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
 
-## Vehicle Network Standards 🚗
+## Robotics & ROS2 🤖
 
-Projects covering automotive communication protocols, standards and embedded systems:
-- [Vehicle Network Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
-  - CAN
-  - LIN
-  - FlexRay
-  - Ethernet
-  - XCP
-  - SecOC
-  - AUTOSAR
-  - SOA
-  - UDS
-  - SOVD
-  - DoIP
+Comprehensive ROS2 examples from beginner to advanced:
 
-## E/E Architecture 🏗️ Standards & Compliance 📐
+* [ROS](https://github.com/CagriCatik/ROS)
+* [ROS2-Beginners](https://github.com/CagriCatik/ROS2-Beginners)
+* [ROS2-Advanced-Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
+* [ROS2-TF-URDF-RViz-Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
+* [ROS2-Nav2](https://github.com/CagriCatik/ROS2-Nav2)
+* [ROS2-Control](https://github.com/CagriCatik/ROS2-Control)
 
-Explore projects on electronic and electrical architecture in vehicles. Repositories dedicated to safety standards and compliance:
-- [Functional Safety](https://github.com/CagriCatik/FuSi)
-- [IATF](https://github.com/CagriCatik/IATF)
-- [FMEA](https://github.com/CagriCatik/FMEA)
+## MATLAB & Simulink 🔧
 
-## Deep Learning Projects 🧠
+Modeling, simulation, and co-simulation projects:
 
-- [Multi-Task Learning](https://github.com/CagriCatik/Multi-Task-Learning)
-- [Mono Camera Distance Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
-- [EchoScript](https://github.com/CagriCatik/EchoScript)
-- [Intrusion-Detection](https://github.com/CagriCatik/YOLOv11-Projects/Intrusion-Detection)
-- [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects/tree/main)
+* [SiL-Simulink-with-Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
+* [Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
+* [DriveSim](https://github.com/CagriCatik/DriveSim)
+* [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
 
-## Simple ROS2 Projects 🤖
+## Automotive Networks & E/E Architecture 🚗🏗️
 
-- [ROS 2 CSI Camera Publisher and OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
-- [Custom ROS 2 Messages Using Python Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
-- [ROS 2 IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
-- [ROS 2 Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
-- [ROS 2 RealSense Camera Publisher and Depth/ Stereo Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
-- [SLAMTEC LIDAR ROS2 Package for RPLIDAR C1](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
-- [ROS2 YOLO11 Object Detection Package](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
+Standards-compliant communication and electrical system design:
 
-## 8. SDC-Projects 🏎️
+* [Vehicle-Network-Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
+* [Service Oriented Vehicle Diagnostics](https://github.com/CagriCatik/SOVD)
+* [Functional Safety (ISO 26262)](https://github.com/CagriCatik/FuSi)
+* [IATF 16949 Quality Management](https://github.com/CagriCatik/IATF)
+* [Failure Mode & Effects Analysis](https://github.com/CagriCatik/FMEA)
 
-- [Self-Driving Cars with OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
+## Deep Learning 🧠
 
-## 9. PCB Handbook and Projects 📘
+Vision and perception projects for autonomous systems:
 
-- [PCB Handbook](https://github.com/CagriCatik/PCB-Design-with-KiCad)
+* [Multi-Task-Learning](https://github.com/CagriCatik/Multi-Task-Learning)
+* [YOLOv11-Mono-Camera-Distance-Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
+* [EchoScript](https://github.com/CagriCatik/EchoScript)
+* [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects)
+
+## Simple ROS2 Tutorials 📘
+
+Hands-on beginner-friendly examples:
+
+* [CSI Camera & OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
+* [Custom Message Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
+* [IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
+* [Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
+* [RealSense Depth & Stereo](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
+* [SLAMTEC LIDAR (RPLIDAR C1)](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
+* [YOLO11 Object Detection](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
+
+## Self-Driving Car Projects 🏎️
+
+AI and control integration for autonomous vehicles:
+
+* [SDC-OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
+
+## PCB Design & Handbook 📘
+
+Complete guide and examples for PCB layout using KiCad:
+
+* [PCB-Design-with-KiCad](https://github.com/CagriCatik/PCB-Design-with-KiCad)
+
+
+## LLM Journey 🤖💬
+
+Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:
+
+* [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
+* [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG) 
+

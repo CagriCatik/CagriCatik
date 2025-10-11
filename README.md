@@ -1,100 +1,167 @@
-# Repositories 📚
+<div align="center">
 
-This collection showcases projects across programming, robotics, automotive systems, electronics, and deep learning. Browse by category to explore each domain.
+# My Repositories 📚
 
-## Table of Contents
+A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
 
-1. [Programming Languages](#programming-languages)
-2. [Robotics & ROS2](#robotics--ros2)
-3. [MATLAB & Simulink](#matlab--simulink)
-4. [Automotive Networks & E/E Architecture](#automotive-networks--ee-architecture)
-5. [Deep Learning](#deep-learning)
-6. [Simple ROS2 Tutorials](#simple-ros2-tutorials)
-7. [Self-Driving Car Projects](#self-driving-car-projects)
-8. [PCB Design & Handbook](#pcb-design--handbook)
+</div>
+
+<div align="center">
+
+
+  <!-- Repository & Robotics -->
+  <img src="https://img.shields.io/badge/Private%20Repos-Enabled-444444?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Repositories-124-blue?style=for-the-badge&logo=github" />
+  <img src="https://img.shields.io/badge/ROS2-Active-blueviolet?style=for-the-badge&logo=ros" />
+
+  <!-- Programming & Tools -->
+  <img src="https://img.shields.io/badge/MATLAB-Simulink%20Integration-ffcc00?style=for-the-badge&logo=mathworks" />
+  <img src="https://img.shields.io/badge/Python-Automation%20%26%20AI-3776AB?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/C++-Performance%20Systems-00599C?style=for-the-badge&logo=cplusplus" />
+  <img src="https://img.shields.io/badge/Rust-Safe%20Concurrency-b7410e?style=for-the-badge&logo=rust" />
+  <img src="https://img.shields.io/badge/Linux-Development%20Env-000000?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker" />
+  <img src="https://img.shields.io/badge/CI%2FCD-Automation%20Pipelines-0A0A0A?style=for-the-badge&logo=githubactions" />
+
+  <!-- Engineering Domains -->
+  <img src="https://img.shields.io/badge/Automotive-Systems%20Engineering-228B22?style=for-the-badge&logo=car" />
+  <img src="https://img.shields.io/badge/Deep%20Learning-Computer%20Vision-ff0000?style=for-the-badge&logo=tensorflow" />
+  <img src="https://img.shields.io/badge/AI-LLM%20Research-555555?style=for-the-badge&logo=openai" />
+  <img src="https://img.shields.io/badge/Game%20Engine-Simulation%20%26%20Physics-708090?style=for-the-badge&logo=unrealengine" />
+  <img src="https://img.shields.io/badge/Control%20Systems-Robotics%20Dynamics-556B2F?style=for-the-badge&logo=gear" />
+  <img src="https://img.shields.io/badge/Embedded-Microcontrollers-4682B4?style=for-the-badge&logo=arduino" />
+  <img src="https://img.shields.io/badge/Electronics-PCB%20Design-2E8B57?style=for-the-badge&logo=circuitverse" />
+  <img src="https://img.shields.io/badge/PCB-KiCad-005f73?style=for-the-badge&logo=kicad" />
+  <img src="https://img.shields.io/badge/Testing-HIL%2FSIL%20Integration-696969?style=for-the-badge&logo=testinglibrary" />
+  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv" />
+
+</div>
+
 
 ---
 
-## Programming Languages 💻
+<details>
+<summary><b>Programming Languages 💻</b></summary>
 
 Projects demonstrating core language skills and popular libraries:
 
-* [C](https://github.com/CagriCatik/C)
-* [C++](https://github.com/CagriCatik/CPP)
-* [Python](https://github.com/CagriCatik/Python)
-* [Rust](https://github.com/CagriCatik/RUST)
-* [Bash](https://github.com/CagriCatik/my-bash-files-repository)
-* [PowerShell](https://github.com/CagriCatik/PowerShell)
-* [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
+- [C](https://github.com/CagriCatik/C)
+- [C++](https://github.com/CagriCatik/CPP)
+- [Python](https://github.com/CagriCatik/Python)
+- [Rust](https://github.com/CagriCatik/RUST)
+- [Bash](https://github.com/CagriCatik/my-bash-files-repository)
+- [PowerShell](https://github.com/CagriCatik/PowerShell)
+- [MATLAB/Simulink](https://github.com/CagriCatik/MATLAB-Simulink-Stateflow)
 
-## Robotics & ROS2 🤖
+</details>
+
+---
+
+<details>
+<summary><b>Robotics & ROS2 🤖</b></summary>
 
 Comprehensive ROS2 examples from beginner to advanced:
 
-* [ROS](https://github.com/CagriCatik/ROS)
-* [ROS2-Beginners](https://github.com/CagriCatik/ROS2-Beginners)
-* [ROS2-Advanced-Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
-* [ROS2-TF-URDF-RViz-Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
-* [ROS2-Nav2](https://github.com/CagriCatik/ROS2-Nav2)
-* [ROS2-Control](https://github.com/CagriCatik/ROS2-Control)
+- [ROS](https://github.com/CagriCatik/ROS)
+- [ROS2-Beginners](https://github.com/CagriCatik/ROS2-Beginners)
+- [ROS2-Advanced-Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
+- [ROS2-TF-URDF-RViz-Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
+- [ROS2-Nav2](https://github.com/CagriCatik/ROS2-Nav2)
+- [ROS2-Control](https://github.com/CagriCatik/ROS2-Control)
 
-## MATLAB & Simulink 🔧
+</details>
+
+---
+
+<details>
+<summary><b>MATLAB & Simulink 🔧</b></summary>
 
 Modeling, simulation, and co-simulation projects:
 
-* [SiL-Simulink-with-Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
-* [Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
-* [DriveSim](https://github.com/CagriCatik/DriveSim)
-* [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
+- [SiL-Simulink-with-Python](https://github.com/CagriCatik/SiL-Simulink-with-Python)
+- [Rear-Axle-Steering](https://github.com/CagriCatik/Rear-Axle-Steering)
+- [DriveSim](https://github.com/CagriCatik/DriveSim)
+- [PID-PSO-Optimization](https://github.com/CagriCatik/PID-PSO-Optimization)
+- [LuT-PSO-Optimization](https://github.com/CagriCatik/LuT-PSO)
 
-## Automotive Networks & E/E Architecture 🚗🏗️
+</details>
+
+---
+
+<details>
+<summary><b>Automotive Networks & E/E Architecture 🚗🏗️</b></summary>
 
 Standards-compliant communication and electrical system design:
 
-* [Vehicle-Network-Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
-* [Service Oriented Vehicle Diagnostics](https://github.com/CagriCatik/SOVD)
-* [Functional Safety (ISO 26262)](https://github.com/CagriCatik/FuSi)
-* [IATF 16949 Quality Management](https://github.com/CagriCatik/IATF)
-* [Failure Mode & Effects Analysis](https://github.com/CagriCatik/FMEA)
+- [Vehicle-Network-Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
+- [Service Oriented Vehicle Diagnostics](https://github.com/CagriCatik/SOVD)
+- [Functional Safety (ISO 26262)](https://github.com/CagriCatik/FuSi)
+- [IATF 16949 Quality Management](https://github.com/CagriCatik/IATF)
+- [Failure Mode & Effects Analysis](https://github.com/CagriCatik/FMEA)
 
-## Deep Learning 🧠
+</details>
+
+---
+
+<details>
+<summary><b>Deep Learning 🧠</b></summary>
 
 Vision and perception projects for autonomous systems:
 
-* [Multi-Task-Learning](https://github.com/CagriCatik/Multi-Task-Learning)
-* [YOLOv11-Mono-Camera-Distance-Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
-* [EchoScript](https://github.com/CagriCatik/EchoScript)
-* [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects)
+- [Multi-Task-Learning](https://github.com/CagriCatik/Multi-Task-Learning)
+- [YOLOv11-Mono-Camera-Distance-Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
+- [EchoScript](https://github.com/CagriCatik/EchoScript)
+- [YOLOv11-Projects](https://github.com/CagriCatik/YOLOv11-Projects)
 
-## Simple ROS2 Tutorials 📘
+</details>
+
+---
+
+<details>
+<summary><b>Simple ROS2 Tutorials 📘</b></summary>
 
 Hands-on beginner-friendly examples:
 
-* [CSI Camera & OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
-* [Custom Message Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
-* [IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
-* [Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
-* [RealSense Depth & Stereo](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
-* [SLAMTEC LIDAR (RPLIDAR C1)](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
-* [YOLO11 Object Detection](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
+- [CSI Camera & OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
+- [Custom Message Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
+- [IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
+- [Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
+- [RealSense Depth & Stereo](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
+- [SLAMTEC LIDAR (RPLIDAR C1)](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
+- [YOLO11 Object Detection](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
 
-## Self-Driving Car Projects 🏎️
+</details>
+
+---
+
+<details>
+<summary><b>Self-Driving Car Projects 🏎️</b></summary>
 
 AI and control integration for autonomous vehicles:
 
-* [SDC-OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
+- [SDC-OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
 
-## PCB Design & Handbook 📘
+</details>
+
+---
+
+<details>
+<summary><b>PCB Design & Handbook 📘</b></summary>
 
 Complete guide and examples for PCB layout using KiCad:
 
-* [PCB-Design-with-KiCad](https://github.com/CagriCatik/PCB-Design-with-KiCad)
+- [PCB-Design-with-KiCad](https://github.com/CagriCatik/PCB-Design-with-KiCad)
 
+</details>
 
-## LLM Journey 🤖💬
+---
+
+<details>
+<summary><b>LLM Journey 🤖💬</b></summary>
 
 Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:
 
-* [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
-* [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG) 
+- [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
+- [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG)
 
+</details>

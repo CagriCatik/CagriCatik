@@ -1,62 +1,86 @@
 # UV
 
-UV is a modern, high-performance Python package and project manager developed by Astral, the creators of Ruff. Written in Rust, UV aims to unify and streamline Python development workflows by replacing multiple tools like `pip`, `virtualenv`, `pip-tools`, `pipx`, and `pyenv` with a single, cohesive interface. This guide provides a detailed overview of UV's features, installation methods, and usage. ```uv``` is a modern, high-performance Python package and project manager developed by Astral, the creators of the Ruff linter.
+UV is a **modern, high-performance Python package and project manager** developed by **Astral**, the creators of **Ruff**.  
+Written in **Rust**, UV unifies and accelerates the Python development workflow by replacing multiple tools such as  
+`pip`, `virtualenv`, `pip-tools`, `pipx`, and `pyenv` into a **single cohesive interface**.
 
-> While the official documentation does not explicitly define the abbreviation ```uv``` it is commonly interpreted as ```Universal Virtualenv```. This reflects uv's goal of providing a unified tool that handles virtual environments, package management, and more, simplifying the Python development process.
+> The abbreviation **"uv"** is commonly interpreted as **"Universal Virtualenv"**, representing its goal to unify environment management, dependency handling, and Python version control.
 
-Written in Rust, uv is designed to be a faster and more integrated alternative to traditional Python tools like `pip`, `virtualenv`, `pip-tools`, and `pipx`. It aims to streamline the Python development workflow by consolidating multiple functionalities into a single tool.
+---
 
-## Key Features of uv
+## ⚡ Overview
 
-* **Blazing Fast Performance**: uv offers significantly faster package installation and dependency resolution compared to traditional tools, thanks to its Rust-based implementation.
+UV provides an integrated system for:
 
-* **Integrated Virtual Environment Management**: Automatically creates and manages virtual environments, eliminating the need for manual setup with tools like `virtualenv`.
-* **Modern Dependency Management**: Utilizes `pyproject.toml` and `uv.lock` files for managing dependencies, ensuring reproducible and consistent environments across different systems.
+- **Dependency management**
+- **Virtual environment handling**
+- **Python version control**
+- **CLI tool management**
+- **Script execution**
 
-* **Tool Management**: Can install and run Python-based command-line tools in isolated environments, similar to `pipx`, using commands like `uv tool install` and `uvx`.
+It delivers **Rust-level speed** with the familiarity of Python tooling.
 
-* **Python Version Management**: Supports installing and managing multiple Python versions, allowing for seamless switching and pinning of Python versions per project.
+---
 
-* **Cross-Platform Support**: Compatible with macOS, Linux, and Windows, making it a versatile choice for developers across different operating systems.
+## 🚀 Key Features
 
+### 1. Blazing Fast Performance
+
+- Up to **10–100x faster** than traditional tools like `pip`.
+- Utilizes **global caching** to reuse dependencies across projects.
+- Designed for **deterministic**, reproducible installs using `uv.lock`.
+
+### 2. Integrated Environment Management
+
+- Automatically manages virtual environments; no need for `venv` or `virtualenv`.
+- Uses `pyproject.toml` and `uv.lock` to maintain reproducible builds.
+
+### 3. Unified Tooling
+
+UV consolidates multiple tools into one interface:
+
+| Function | Replaces | Example Command |
+|-----------|-----------|-----------------|
+| Package management | `pip`, `pip-tools` | `uv add requests` |
+| Virtual envs | `virtualenv` | `uv init`, `uv run` |
+| Python versioning | `pyenv` | `uv python install 3.12` |
+| CLI tool management | `pipx` | `uv tool install ruff` |
+
+### 4. Python Version Management
+
+- Install and manage multiple interpreters (`uv python install`).
+- Pin Python versions per project (`uv python pin 3.12`).
+- Works with unmanaged system Python installations seamlessly.
+
+### 5. Cross-Platform
+
+Supports **macOS**, **Linux**, and **Windows** with consistent commands.
+
+---
 
 ## 🔧 Installation
 
-UV offers several installation methods to accommodate different operating systems and preferences:
+### macOS & Linux
 
-### Standalone Installer (Recommended)
+```bash
+curl -LsSf https://astral.sh/uv/install.sh | sh
+````
 
-* **macOS and Linux:**
+### Windows (PowerShell)
 
-  ```bash
-  curl -LsSf https://astral.sh/uv/install.sh | sh
-  ```
+```powershell
+irm https://astral.sh/uv/install.ps1 | iex
+```
 
+### Python Package Managers
 
+```bash
+pip install uv
+# or
+pipx install uv
+```
 
-* **Windows (PowerShell):**
-
-  ```powershell
-  irm https://astral.sh/uv/install.ps1 | iex
-  ```
-
-### Using Python Package Managers
-
-* **pip:**
-
-  ```bash
-  pip install uv
-  ```
-
-* **pipx:**
-
-  ```bash
-  pipx install uv
-  ```
-
-
-
-After installation, verify UV is correctly installed by running:
+Verify:
 
 ```bash
 uv --version
@@ -64,201 +88,221 @@ uv --version
 
 ---
 
-## 🚀 Key Features
+## 🧱 Project Initialization
 
-### 1. Unified Tooling
-
-UV consolidates the functionalities of multiple Python tools:
-
-* **Package Management:** Replaces `pip` and `pip-tools` for installing and resolving dependencies.
-* **Virtual Environments:** Supersedes `virtualenv` by automatically creating and managing isolated environments.
-* **Python Version Management:** Offers capabilities similar to `pyenv` for installing and managing different Python versions.
-* **CLI Tool Management:** Acts as an alternative to `pipx` for installing and running Python-based command-line tools.([astral.sh][4])
-
-### 2. Performance
-
-UV is designed for speed:([GitHub][5])
-
-* **Fast Installations:** UV can be 10–100 times faster than traditional tools like `pip`, especially when using a warm cache.
-* **Global Caching:** Utilizes a global cache to avoid redundant downloads and installations across projects.([Astral Docs][6])
-
-### 3. Project Initialization
-
-UV simplifies project setup:([via-internet.de][7])
+Create a new project:
 
 ```bash
 uv init my_project
 ```
 
+Creates:
 
+```
+.git/
+.gitignore
+.python-version
+pyproject.toml
+uv.lock
+main.py
+```
 
-This command creates a new project directory with the following structure:
+Options:
 
-* `.git/` and `.gitignore` for version control.
-* `.python-version` specifying the Python version.
-* `pyproject.toml` for project configuration and dependencies.
-* `uv.lock` for locking exact dependency versions.
-* `main.py` as a starter script.
+```bash
+uv init --app --package    # Application project
+uv init --lib --package    # Library project
+uv init --python 3.12      # Use Python 3.12
+```
 
-### 4. Dependency Management
+---
 
-* **Adding Packages:**
+## 📦 Dependency Management
 
-  ```bash
-  uv add flask requests
-  ```
+### Add or Remove Dependencies
 
-* **Removing Packages:**
+```bash
+uv add requests flask
+uv remove flask
+```
 
-  ```bash
-  uv remove flask
-  ```
+### Add Dev or Custom Groups
 
-* **Synchronizing Dependencies:**
+```bash
+uv add --dev pytest
+uv add --group lint ruff
+```
 
-  ```bash
-  uv sync
-  ```
+### Synchronize & Inspect
 
-* **Viewing Dependency Tree:**
+```bash
+uv sync               # Sync dependencies with lockfile
+uv tree               # Display dependency tree
+uv lock --upgrade     # Upgrade locked dependencies
+uv add -r requirements.txt  # Import from legacy pip requirements
+```
 
-  ```bash
-  uv tree
-  ```
+---
 
-### 5. Running Scripts
+## 🧩 Running Scripts
 
-UV allows you to run Python scripts without manually activating virtual environments:([Medium][11])
+Run scripts with isolated environments:
 
 ```bash
 uv run main.py
 ```
 
-If the virtual environment is missing, UV will automatically recreate it and install the necessary dependencies.
-
-### 6. Tool Management
-
-* **Installing CLI Tools:**
-
-  ```bash
-  uv tool install ruff
-  ```
-
-* **Running Tools Temporarily:**
-
-  ```bash
-  uv tool run ruff check
-  ```
-
-* **Using Shortcut (`uvx`):**
-
-  ```bash
-  uvx ruff check
-  ```
-
-* **Listing Installed Tools:**
-
-  ```bash
-  uv tool list
-  ```
-
-* **Upgrading Tools:**
-
-  ```bash
-  uv tool upgrade --all
-  ```
-
-
-
-### 7. Python Version Management
-
-UV can install and manage different Python versions:
-
-* **Installing Latest Python Version:**
-
-  ```bash
-  uv python install
-  ```
-
-* **Installing Specific Python Version:**
-
-  ```bash
-  uv python install 3.12
-  ```
-
-* **Listing Installed Python Versions:**
-
-  ```bash
-  uv python list
-  ```
----
-
-## 📁 Migrating Existing Projects
-
-To transition an existing project to UV:
-
-1. **Initialize UV in the Project Directory:**
-
-   ```bash
-   uv init
-   ```
-
-2. **Add Existing Dependencies:**
-
-   ```bash
-   uv add -r requirements.txt
-   ```
-
-3. **Remove `requirements.txt`:** After migration, you can rely on `pyproject.toml` and `uv.lock` for dependency management.
-
----
-
-## 📄 Managing Dependency Groups
-
-UV supports organizing dependencies into groups, such as development or testing:
-
-* **Adding Development Dependencies:**
-
-  ```bash
-  uv add --dev pytest
-  ```
-
-* **Adding Custom Group Dependencies:**
-
-  ```bash
-  uv add --group lint ruff
-  ```
-
-These groups are reflected in the `pyproject.toml` under `[tool.uv.dependency-groups]`.
-
----
-
-## 🧪 Using UV with Single-File Scripts
-
-UV can execute standalone Python scripts with inline dependency metadata:([astral.sh][13])
+If the environment doesn’t exist, UV automatically recreates it.
+You can also inline dependencies:
 
 ```python
 # main.py
 # uv: requests
 
 import requests
-
-response = requests.get('https://api.example.com')
-print(response.json())
+print(requests.get('https://api.example.com').status_code)
 ```
 
-Run the script using:
+Run directly:
 
 ```bash
 uv run main.py
 ```
 
-UV will automatically install the specified dependencies and execute the script.
+---
+
+## ⚙️ Tool Management
+
+Install, list, and manage Python CLI tools:
+
+```bash
+uv tool install ruff
+uv tool list
+uv tool upgrade --all
+```
+
+Run directly:
+
+```bash
+uvx ruff check .
+```
+
+Install editable or dependency-extended tools:
+
+```bash
+uv tool install -e        # Install current dir as editable tool
+uv tool install --with dep
+```
 
 ---
 
-## 📚 Additional Resources
+## 🐍 Python Version Management
 
-* **Official Documentation:** [docs.astral.sh/uv](https://docs.astral.sh/uv/)
-* **GitHub Repository:** [github.com/astral-sh/uv](https://github.com/astral-sh/uv)
-* **Real Python Guide:** [Managing Python Projects With uv](https://realpython.com/python-uv/)
+### Install & Manage Interpreters
+
+```bash
+uv python install 3.13
+uv python list
+uv python upgrade
+```
+
+### Pin Python per Project
+
+```bash
+uv python pin 3.12
+```
+
+### Run with a Specific Version
+
+```bash
+uv run --python 3.12 python
+```
+
+---
+
+## 🔄 Project Lifecycle
+
+Check version and bump releases:
+
+```bash
+uv version
+uv bump major     # 1.2.3 → 2.0.0
+uv bump minor     # 1.2.3 → 1.3.0
+uv bump alpha     # Mark pre-release
+uv bump stable    # Mark final release
+```
+
+Build and publish:
+
+```bash
+uv build
+uv publish
+```
+
+---
+
+## 🧪 Migrating Existing Projects
+
+1. Initialize UV:
+
+   ```bash
+   uv init
+   ```
+
+2. Import dependencies:
+
+   ```bash
+   uv add -r requirements.txt
+   ```
+
+3. Remove `requirements.txt` (use `pyproject.toml` + `uv.lock`).
+
+---
+
+## 🧾 Meta Commands
+
+```bash
+uv help python pin   # Subcommand help
+uv self version      # Check uv version
+uv self update       # Update uv CLI
+```
+
+---
+
+## ✨ Formatting and Utilities
+
+Format code with Ruff:
+
+```bash
+uv format
+```
+
+---
+
+## 🧓 Legacy Compatibility
+
+```bash
+uv venv path/to/.venv --python 3.12
+uv pip install requests
+```
+
+Brings `pip`/`venv` workflows under UV’s faster, managed interface.
+
+---
+
+## 🧠 Best Practices
+
+- Always **commit** `uv.lock` for reproducible builds.
+- Use `uv python pin` to ensure consistent interpreter across team & CI.
+- Prefer `uv tool install` or `uvx` for CLI utilities to keep environments clean.
+- Benchmark installs (`uv` is significantly faster with warm cache).
+
+---
+
+## 📚 Resources
+
+- **Docs:** [https://docs.astral.sh/uv](https://docs.astral.sh/uv)
+- **GitHub:** [https://github.com/astral-sh/uv](https://github.com/astral-sh/uv)
+- **Real Python Guide:** [https://realpython.com/python-uv/](https://realpython.com/python-uv/)
+- **Cheatsheet:** [https://mathspp.com/blog/uv-cheatsheet](https://mathspp.com/blog/uv-cheatsheet)
+- **More Cheatsheets:** [https://mathspp.com/cheatsheets](https://mathspp.com/cheatsheets)

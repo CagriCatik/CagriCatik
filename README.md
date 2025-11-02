@@ -62,12 +62,21 @@ Projects demonstrating core language skills and popular libraries:
 
 Comprehensive ROS2 examples from beginner to advanced:
 
-- [ROS](https://github.com/CagriCatik/ROS)
-- [ROS2-Beginners](https://github.com/CagriCatik/ROS2-Beginners)
-- [ROS2-Advanced-Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
-- [ROS2-TF-URDF-RViz-Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
-- [ROS2-Nav2](https://github.com/CagriCatik/ROS2-Nav2)
-- [ROS2-Control](https://github.com/CagriCatik/ROS2-Control)
+- [ROS2: Beginners](https://github.com/CagriCatik/ROS2-Beginners)
+- [ROS2: Advanced-Concepts](https://github.com/CagriCatik/ROS2-Advanced-Concepts)
+- [ROS2: TF-URDF-RViz-Gazebo](https://github.com/CagriCatik/ROS2-TF-URDF-RViz-Gazebo)
+- [ROS2: Nav2](https://github.com/CagriCatik/ROS2-Nav2)
+- [ROS2: Control](https://github.com/CagriCatik/ROS2-Control)
+- [ROS2: Odometry & Control]()
+- [ROS2: Plan & Navigation]()
+- [ROS2: Map & Localization]()
+- [CSI Camera & OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
+- [Custom Message Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
+- [IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
+- [Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
+- [RealSense Depth & Stereo](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
+- [SLAMTEC LIDAR (RPLIDAR C1)](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
+- [YOLO11 Object Detection](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
 
 </details>
 
@@ -118,23 +127,6 @@ Vision and perception projects for autonomous systems:
 ---
 
 <details>
-<summary><b>Simple ROS2 Tutorials 📘</b></summary>
-
-Hands-on beginner-friendly examples:
-
-- [CSI Camera & OpenCV Subscriber](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_csi_ws)
-- [Custom Message Serialization](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_deserialization_ws)
-- [IMU Interface](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_imu_serial)
-- [Arduino LED Control](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_lighting_serial)
-- [RealSense Depth & Stereo](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_realsense_ws)
-- [SLAMTEC LIDAR (RPLIDAR C1)](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_rplidar-c1_ws)
-- [YOLO11 Object Detection](https://github.com/CagriCatik/Simple-ROS2-Projects/tree/main/ros2_yolo11_detector)
-
-</details>
-
----
-
-<details>
 <summary><b>Self-Driving Car Projects 🏎️</b></summary>
 
 AI and control integration for autonomous vehicles:
@@ -146,7 +138,7 @@ AI and control integration for autonomous vehicles:
 ---
 
 <details>
-<summary><b>PCB Design & Handbook 📘</b></summary>
+<summary><b>PCB Design & Projects 📘</b></summary>
 
 Complete guide and examples for PCB layout using KiCad:
 

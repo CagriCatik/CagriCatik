@@ -4,8 +4,6 @@
 
 A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
 
-</div>
-
 <div align="center">
 
   <!-- Repository & Robotics -->
@@ -36,6 +34,7 @@ A collection of projects in programming, robotics, automotive systems, electroni
   <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
 
 </div>
+
 
 
 

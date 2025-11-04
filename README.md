@@ -10,7 +10,7 @@ A collection of projects in programming, robotics, automotive systems, electroni
   <img src="https://img.shields.io/badge/Private%20Repos-Enabled-444444?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/Repositories-124-0366d6?style=for-the-badge&logo=github&logoColor=white" />
   <img src="https://img.shields.io/badge/ROS2-Active-6A0DAD?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://img.shields.io/badge/Visitors-CagriCatik-blueviolet?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=CagriCatik.CagriCatik&left_color=gray&right_color=blueviolet&style=for-the-badge" />
 
   <!-- Programming & Tools -->
   <img src="https://img.shields.io/badge/MATLAB-Simulink%20Integration-ffcc00?style=for-the-badge&logo=Mathworks&logoColor=black" />

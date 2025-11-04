@@ -11,6 +11,7 @@ A collection of projects in programming, robotics, automotive systems, electroni
 
   <!-- Repository & Robotics -->
   <img src="https://img.shields.io/badge/Private%20Repos-Enabled-444444?style=for-the-badge&logo=github&logoColor=white" />
+  <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=CagriCatik.CagriCatik">
   <img src="https://img.shields.io/badge/Repositories-124-blue?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/ROS2-Active-blueviolet?style=for-the-badge&logo=ros" />
 

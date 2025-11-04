@@ -1,5 +1,3 @@
-<div align="center">
-
 # My Repositories 📚
 
 A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  

@@ -1,41 +1,6 @@
 # My Repositories 📚
 
 A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
-
-<div align="center">
-
-  <!-- Repository & Robotics -->
-  <img src="https://img.shields.io/badge/Private%20Repos-Enabled-444444?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/Repositories-124-0366d6?style=for-the-badge&logo=github&logoColor=white" />
-  <img src="https://img.shields.io/badge/ROS2-Active-6A0DAD?style=for-the-badge&logo=ros&logoColor=white" />
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=CagriCatik.CagriCatik&left_color=gray&right_color=blueviolet&style=for-the-badge" />
-
-  <!-- Programming & Tools -->
-  <img src="https://img.shields.io/badge/MATLAB-Simulink%20Integration-ffcc00?style=for-the-badge&logo=Mathworks&logoColor=black" />
-  <img src="https://img.shields.io/badge/Python-Automation%20%26%20AI-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/C++-Performance%20Systems-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" />
-  <img src="https://img.shields.io/badge/Rust-Safe%20Concurrency-b7410e?style=for-the-badge&logo=rust&logoColor=white" />
-  <img src="https://img.shields.io/badge/Linux-Development%20Env-000000?style=for-the-badge&logo=linux&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-Containerization-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/CI%2FCD-Automation%20Pipelines-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" />
-
-  <!-- Engineering Domains -->
-  <img src="https://img.shields.io/badge/Automotive-Systems%20Engineering-228B22?style=for-the-badge&logo=car&logoColor=white" />
-  <img src="https://img.shields.io/badge/Deep%20Learning-Computer%20Vision-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
-  <img src="https://img.shields.io/badge/AI-LLM%20Research-555555?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/Game%20Engine-Simulation%20%26%20Physics-0E1128?style=for-the-badge&logo=unrealengine&logoColor=white" />
-  <img src="https://img.shields.io/badge/Control%20Systems-Robotics%20Dynamics-556B2F?style=for-the-badge&logo=dependabot&logoColor=white" />
-  <img src="https://img.shields.io/badge/Embedded-Microcontrollers-4682B4?style=for-the-badge&logo=arduino&logoColor=white" />
-  <img src="https://img.shields.io/badge/Electronics-PCB%20Design-2E8B57?style=for-the-badge&logo=circuitverse&logoColor=white" />
-  <img src="https://img.shields.io/badge/PCB-KiCad-005f73?style=for-the-badge&logo=kicad&logoColor=white" />
-  <img src="https://img.shields.io/badge/Testing-HIL%2FSIL%20Integration-696969?style=for-the-badge&logo=testinglibrary&logoColor=white" />
-  <img src="https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" />
-
-</div>
-
-
-
-
 ---
 
 <details>

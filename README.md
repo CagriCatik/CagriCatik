@@ -1,7 +1,6 @@
 # My Repositories 📚
-
-A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
 ---
+A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
 
 <details>
 <summary><b>Programming Languages 💻</b></summary>

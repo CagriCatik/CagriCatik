@@ -81,7 +81,7 @@ Vision and perception projects for autonomous systems:
 
 - [Multi-Task-Learning](https://github.com/CagriCatik/Multi-Task-Learning)
 - [YOLOv11-Mono-Camera-Distance-Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
-- [EchoScript](https://github.com/CagriCatik/EchoScript)
+
 - [YOLO-Projects](https://github.com/CagriCatik/YOLOv11-Projects)
 
 </details>
@@ -94,6 +94,8 @@ Vision and perception projects for autonomous systems:
 AI and control integration for autonomous vehicles:
 
 - [SDC-OpenAI](https://github.com/CagriCatik/SDC-OpenAI)
+- [RRT-MPC](https://github.com/CagriCatik/RRT-MPC)
+- [FMT-MPC](https://github.com/CagriCatik/FMT-MPC)
 
 </details>
 
@@ -117,5 +119,10 @@ Explorations and experiments with large language models, retrieval-augmentation,
 
 - [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
 - [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG)
+- [RAG on Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
+- [EchoScript](https://github.com/CagriCatik/EchoScript)
+- [Contextus](https://github.com/CagriCatik/Contextus)
+- [Docalypt](https://github.com/CagriCatik/Docalypt)
+- [AuroraSpecDominion](https://github.com/CagriCatik/AuroraSpecDominion)
 
 </details>

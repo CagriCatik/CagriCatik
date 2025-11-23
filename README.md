@@ -123,5 +123,6 @@ Explorations and experiments with large language models, retrieval-augmentation,
 - [Contextus](https://github.com/CagriCatik/Contextus)
 - [Docalypt](https://github.com/CagriCatik/Docalypt)
 - [AuroraSpecDominion](https://github.com/CagriCatik/AuroraSpecDominion)
+- [n8n](https://github.com/CagriCatik/n8n-ollama)
 
 </details>

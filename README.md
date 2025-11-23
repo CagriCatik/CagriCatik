@@ -81,7 +81,6 @@ Vision and perception projects for autonomous systems:
 
 - [Multi-Task-Learning](https://github.com/CagriCatik/Multi-Task-Learning)
 - [YOLOv11-Mono-Camera-Distance-Estimation](https://github.com/CagriCatik/YOLOv11-Mono-Camera-Distance-Estimation)
-
 - [YOLO-Projects](https://github.com/CagriCatik/YOLOv11-Projects)
 
 </details>

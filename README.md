@@ -1,6 +1,8 @@
-# My Repositories 📚
+<h1 align="center">My Repositories 📚</h1>
 
-A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
+<h4 align="center">
+  A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
+</h4>
 
 <details>
 <summary><b>Programming Languages 💻</b></summary>

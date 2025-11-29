@@ -108,6 +108,7 @@ AI and control integration for autonomous vehicles:
 Complete guide and examples for PCB layout using KiCad:
 
 - [PCB-Design-with-KiCad](https://github.com/CagriCatik/PCB-Design-with-KiCad)
+- [STM32-HW-Design-with-KiCAD](https://github.com/CagriCatik/STM32-HW-Design-with-KiCAD)
 
 </details>
 

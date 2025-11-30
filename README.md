@@ -67,6 +67,7 @@ Modeling, simulation, and co-simulation projects:
 Standards-compliant communication and electrical system design:
 
 - [Vehicle-Network-Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
+- [Automotive-System-Design](https://github.com/CagriCatik/Automotive-System-Design)
 - [Service Oriented Vehicle Diagnostics](https://github.com/CagriCatik/SOVD)
 - [Functional Safety (ISO 26262)](https://github.com/CagriCatik/FuSi)
 - [IATF 16949 Quality Management](https://github.com/CagriCatik/IATF)

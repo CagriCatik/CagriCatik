@@ -115,6 +115,20 @@ Complete guide and examples for PCB layout using KiCad:
 ---
 
 <details>
+<summary><b>Databricks & PowerBI 🧠</b></summary>
+
+Complete guide and examples for Databricks and PowerBI:
+
+- [Databricks](https://github.com/CagriCatik/Databricks)
+- [Power-BI](https://github.com/CagriCatik/Power-BI)
+- [RAG-on-Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
+
+
+</details>
+
+---
+
+<details>
 <summary><b>LLM Journey 🤖💬</b></summary>
 
 Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:

@@ -128,5 +128,7 @@ Explorations and experiments with large language models, retrieval-augmentation,
 - [AuroraSpecDominion](https://github.com/CagriCatik/AuroraSpecDominion)
 - [n8n-workflows](https://github.com/CagriCatik/n8n-ollama)
 - [FlowScribe](https://github.com/CagriCatik/FlowScribe)
+- [RagSmith](https://github.com/CagriCatik/RagSmith)
+- [TuneSmith](https://github.com/CagriCatik/TuneSmith)
 
 </details>

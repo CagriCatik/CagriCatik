@@ -145,5 +145,6 @@ Explorations and experiments with large language models, retrieval-augmentation,
 - [FlowScribe](https://github.com/CagriCatik/FlowScribe)
 - [RagSmith](https://github.com/CagriCatik/RagSmith)
 - [TuneSmith](https://github.com/CagriCatik/TuneSmith)
+- [CastScribe](https://github.com/CagriCatik/CastScribe)
 
 </details>

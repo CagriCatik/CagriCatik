@@ -146,5 +146,6 @@ Explorations and experiments with large language models, retrieval-augmentation,
 - [RagSmith](https://github.com/CagriCatik/RagSmith)
 - [TuneSmith](https://github.com/CagriCatik/TuneSmith)
 - [CastScribe](https://github.com/CagriCatik/CastScribe)
+- [Clarion](https://github.com/CagriCatik/Clarion)
 
 </details>

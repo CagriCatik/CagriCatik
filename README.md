@@ -68,10 +68,14 @@ Standards-compliant communication and electrical system design:
 
 - [Vehicle-Network-Standards](https://github.com/CagriCatik/Vehicle-Network-Standards)
 - [Automotive-System-Design](https://github.com/CagriCatik/Automotive-System-Design)
-- [Service Oriented Vehicle Diagnostics](https://github.com/CagriCatik/SOVD)
+- [Service-Oriented-Vehicle-Diagnostics](https://github.com/CagriCatik/Service-Oriented-Vehicle-Diagnostics)
+- [SOVD-Simulator](https://github.com/CagriCatik/SOVD)
+- [Automotive Cybersecurity](https://github.com/CagriCatik/Automotive-Cybersecurity)
 - [Functional Safety (ISO 26262)](https://github.com/CagriCatik/FuSi)
 - [IATF 16949 Quality Management](https://github.com/CagriCatik/IATF)
 - [Failure Mode & Effects Analysis](https://github.com/CagriCatik/FMEA)
+- [Unified Diagnostic Services](https://github.com/CagriCatik/Unified-Diagnostic-Services)
+- [Automotive Over-The-Air](https://github.com/CagriCatik/OTA)
 
 </details>
 

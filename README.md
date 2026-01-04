@@ -140,7 +140,6 @@ Explorations and experiments with large language models, retrieval-augmentation,
 
 - [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
 - [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG)
-- [RAG on Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
 - [EchoScript](https://github.com/CagriCatik/EchoScript)
 - [Contextus](https://github.com/CagriCatik/Contextus)
 - [Docalypt](https://github.com/CagriCatik/Docalypt)

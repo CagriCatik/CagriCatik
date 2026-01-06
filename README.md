@@ -151,6 +151,7 @@ Explorations and experiments with large language models, retrieval-augmentation,
 - [CastScribe](https://github.com/CagriCatik/CastScribe)
 - [Clarion](https://github.com/CagriCatik/Clarion)
 - [Mermaid-Live-Desktop](https://github.com/CagriCatik/Mermaid-Live-Desktop)
+- [Axiom-Intelligence](https://github.com/CagriCatik/Axiom-Intelligence)
 - [RAGer](https://github.com/CagriCatik/RAGer)
 
 </details>

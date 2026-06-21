@@ -1,11 +1,11 @@
-<h1 align="center">My Repositories 📚</h1>
+<h1 align="center">My Repositories</h1>
 
 <h4 align="center">
   A collection of projects in programming, robotics, automotive systems, electronics, and deep learning.  
 </h4>
 
 <details>
-<summary><b>Programming Languages 💻</b></summary>
+<summary><b>Programming Languages</b></summary>
 
 Projects demonstrating core language skills and popular libraries:
 
@@ -22,7 +22,7 @@ Projects demonstrating core language skills and popular libraries:
 ---
 
 <details>
-<summary><b>Robotics & ROS2 🤖</b></summary>
+<summary><b>Robotics & ROS2</b></summary>
 
 Comprehensive ROS2 examples from beginner to advanced:
 
@@ -47,7 +47,7 @@ Comprehensive ROS2 examples from beginner to advanced:
 ---
 
 <details>
-<summary><b>MATLAB & Simulink 🔧</b></summary>
+<summary><b>MATLAB & Simulink</b></summary>
 
 Modeling, simulation, and co-simulation projects:
 
@@ -62,7 +62,7 @@ Modeling, simulation, and co-simulation projects:
 ---
 
 <details>
-<summary><b>Automotive Networks & E/E Architecture 🚗🏗️</b></summary>
+<summary><b>Automotive Networks & E/E Architecture </b></summary>
 
 Standards-compliant communication and electrical system design:
 
@@ -82,7 +82,7 @@ Standards-compliant communication and electrical system design:
 ---
 
 <details>
-<summary><b>Deep Learning 🧠</b></summary>
+<summary><b>Deep Learning</b></summary>
 
 Vision and perception projects for autonomous systems:
 
@@ -92,13 +92,13 @@ Vision and perception projects for autonomous systems:
 - [YOLOv8-TrainGPU-InferCPU](https://github.com/CagriCatik/YOLOv8-TrainGPU-InferCPU)
 - [YOLOv11-Custom-Object-Detection](https://github.com/CagriCatik/YOLO-Projects/tree/main/YOLOv11-Custom-Object-Detection)
 - [End-to-End YOLO Workflow for Object Detection and Model Deployment](https://github.com/CagriCatik/YOLO-Projects/tree/main/E2E-Workflow-for-Object-Detection-Deployment)
-
+- [EchoClass - A practical YAMNet-based sound event detection system](https://github.com/CagriCatik/EchoClass)
 </details>
 
 ---
 
 <details>
-<summary><b>Self-Driving Car Projects 🏎️</b></summary>
+<summary><b>Self-Driving Car Projects</b></summary>
 
 AI and control integration for autonomous vehicles:
 
@@ -111,7 +111,7 @@ AI and control integration for autonomous vehicles:
 ---
 
 <details>
-<summary><b>PCB Design & Projects 📘</b></summary>
+<summary><b>PCB Design & Projects</b></summary>
 
 Complete guide and examples for PCB layout using KiCad:
 
@@ -123,7 +123,7 @@ Complete guide and examples for PCB layout using KiCad:
 ---
 
 <details>
-<summary><b>Databricks & PowerBI 🧠</b></summary>
+<summary><b>Databricks & PowerBI</b></summary>
 
 Complete guide and examples for Databricks and PowerBI:
 
@@ -137,7 +137,7 @@ Complete guide and examples for Databricks and PowerBI:
 ---
 
 <details>
-<summary><b>LLM Journey 🤖💬</b></summary>
+<summary><b>LLM Journey</b></summary>
 
 Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:
 

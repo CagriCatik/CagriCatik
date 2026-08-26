@@ -22,6 +22,45 @@ Projects demonstrating core language skills and popular libraries:
 ---
 
 <details>
+<summary><b>Databricks & PowerBI</b></summary>
+
+Complete guide and examples for Databricks and PowerBI:
+
+- [Databricks](https://github.com/CagriCatik/Databricks)
+- [Power-BI](https://github.com/CagriCatik/Power-BI)
+- [RAG-on-Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
+
+</details>
+
+---
+
+<details>
+<summary><b>LLM Journey</b></summary>
+
+Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:
+
+- [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
+- [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG)
+- [EchoScript](https://github.com/CagriCatik/EchoScript)
+- [Contextus](https://github.com/CagriCatik/Contextus)
+- [Docalypt](https://github.com/CagriCatik/Docalypt)
+- [AuroraSpecDominion](https://github.com/CagriCatik/AuroraSpecDominion)
+- [n8n-workflows](https://github.com/CagriCatik/n8n-ollama)
+- [FlowScribe](https://github.com/CagriCatik/FlowScribe)
+- [RagSmith](https://github.com/CagriCatik/RagSmith)
+- [TuneSmith](https://github.com/CagriCatik/TuneSmith)
+- [CastScribe](https://github.com/CagriCatik/CastScribe)
+- [Clarion](https://github.com/CagriCatik/Clarion)
+- [Mermaid-Live-Desktop](https://github.com/CagriCatik/Mermaid-Live-Desktop)
+- [Axiom-Intelligence](https://github.com/CagriCatik/Axiom-Intelligence)
+- [RAGer](https://github.com/CagriCatik/RAGer)
+
+</details>
+
+
+---
+
+<details>
 <summary><b>Robotics & ROS2</b></summary>
 
 Comprehensive ROS2 examples from beginner to advanced:
@@ -120,41 +159,3 @@ Complete guide and examples for PCB layout using KiCad:
 
 </details>
 
----
-
-<details>
-<summary><b>Databricks & PowerBI</b></summary>
-
-Complete guide and examples for Databricks and PowerBI:
-
-- [Databricks](https://github.com/CagriCatik/Databricks)
-- [Power-BI](https://github.com/CagriCatik/Power-BI)
-- [RAG-on-Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
-
-
-</details>
-
----
-
-<details>
-<summary><b>LLM Journey</b></summary>
-
-Explorations and experiments with large language models, retrieval-augmentation, fine-tuning, and prompt engineering:
-
-- [Knowledge Base - LLM, RAG & Finetuning](https://github.com/CagriCatik/KnowledgeBase-LLM-RAG-Finetuning)
-- [LLM-Powered - Test Specification Generator](https://github.com/CagriCatik/TSG)
-- [EchoScript](https://github.com/CagriCatik/EchoScript)
-- [Contextus](https://github.com/CagriCatik/Contextus)
-- [Docalypt](https://github.com/CagriCatik/Docalypt)
-- [AuroraSpecDominion](https://github.com/CagriCatik/AuroraSpecDominion)
-- [n8n-workflows](https://github.com/CagriCatik/n8n-ollama)
-- [FlowScribe](https://github.com/CagriCatik/FlowScribe)
-- [RagSmith](https://github.com/CagriCatik/RagSmith)
-- [TuneSmith](https://github.com/CagriCatik/TuneSmith)
-- [CastScribe](https://github.com/CagriCatik/CastScribe)
-- [Clarion](https://github.com/CagriCatik/Clarion)
-- [Mermaid-Live-Desktop](https://github.com/CagriCatik/Mermaid-Live-Desktop)
-- [Axiom-Intelligence](https://github.com/CagriCatik/Axiom-Intelligence)
-- [RAGer](https://github.com/CagriCatik/RAGer)
-
-</details>

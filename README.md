@@ -68,7 +68,7 @@ Topics include:
 
 ---
 
-### [RAG-on-Databricks](https://github.com/CagriCatik/RAG-on-Databricks)
+### [Gen-AI-Engineering-with-Databricks](https://github.com/CagriCatik/Gen-AI-Engineering-with-Databricks)
 
 A Databricks-based reference implementation exploring an end-to-end **Retrieval-Augmented Generation** architecture.
 
